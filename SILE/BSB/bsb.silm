@@ -16,7 +16,7 @@ sile:
     document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
     document.parskip: 0          # idem
     document.lineskip: 0         # idem
-    # typesetter.italicCorrection: true # not yet available
+    typesetter.italicCorrection: true # Introduced in SILE 0.15
   packages:
     - resilient.bible.usx
 chapters:
