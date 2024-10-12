@@ -1,10 +1,18 @@
 masterfile: 0.0
 metadata:
-  title: FOB
+  title: La Bible
+  subtitle: Traduction œcuménique
+  url: https://github.com/Freely-Given-org/BibleTypesetter
 font:
   family: Libertinus Serif
   size: 10pt
 language: fr
+book:
+  enabled: true
+  cover:
+    background: "#670178"
+    front:
+      template: cover
 sile:
   options:
     # class: resilient.book # optional (default)
